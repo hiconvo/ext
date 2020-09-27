@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Convo",
+  "short_name": "convo",
+  "version": "0.1",
+  "description": "Save your links",
+  "homepage_url": "https://convo.events",
+  "permissions": ["identity", "storage", "activeTab", "tabs"],
+  "icons": {
+    "48": "favicon-48x48.png"
+  },
+  "browser_action": {
+    "default_popup": "popover.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval' blob: ; object-src 'self' blob: filesystem:;"
+}
