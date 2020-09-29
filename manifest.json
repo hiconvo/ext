@@ -7,7 +7,12 @@
   "homepage_url": "https://convo.events",
   "permissions": ["identity", "storage", "activeTab", "tabs"],
   "icons": {
-    "48": "favicon-48x48.png"
+    "16": "icon-16x16.png",
+    "32": "icon-32x32.png",
+    "64": "icon-64x64.png",
+    "128": "icon-128x128.png",
+    "256": "icon-256x256.png",
+    "512": "icon-512x512.png"
   },
   "browser_action": {
     "default_popup": "popover.html"
