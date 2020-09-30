@@ -5,13 +5,13 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, tabs => {
 
   chrome.storage.local.get(["token"], store => {
     if (!store.token) {
-      if (browser && browser.runtime && browser.runtime.openOptionsPage) {
-        browser.runtime.openOptionsPage();
+      if (chrome && chrome.runtime && chrome.runtime.openOptionsPage) {
+        chrome.runtime.openOptionsPage();
       } else {
         window.open(chrome.runtime.getURL("options.html"));
       }
 
-      main.innerHTML = "<p>Please login</p>";
+      main.innerHTML = "<p>&#x1f512</p>";
       return;
     }
 
