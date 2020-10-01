@@ -185,11 +185,8 @@ p {
 .container {
   width: 100%;
   max-width: 30rem;
-  padding: 3.2rem 3.2rem 1.6rem 3.2rem;
+  padding: 0.8rem;
   margin: auto;
-  box-shadow: 0rem 0.4rem 0.8rem 0rem rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
-  border-radius: 2rem;
 }
 
 .heading-container {
@@ -315,4 +312,26 @@ footer {
   text-align: center;
   color: red;
   margin-bottom: 2.4rem;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  margin-bottom: 2.4rem;
+}
+
+.helptext {
+  display: block;
+  margin-bottom: 3.2rem;
+  background-color: lightyellow;
+  border-radius: 1.2rem;
+  border: 1px solid #eee;
+  padding: 1.4rem 1.8rem;
+  font-size: 1.4rem;
+  line-height: 1.4em;
+  color: black;
+}
+
+.helptext a {
+  text-decoration: underline;
 }

@@ -2,17 +2,10 @@
   "manifest_version": 2,
   "name": "Convo",
   "short_name": "convo",
-  "version": "0.2",
+  "version": "0.3",
   "description": "Save your links",
   "homepage_url": "https://convo.events",
-  "permissions": [
-    "identity",
-    "storage",
-    "activeTab",
-    "tabs",
-    "https://api.convo.events/",
-    "https://oauth.convo.events/"
-  ],
+  "permissions": ["storage", "activeTab", "tabs", "https://api.convo.events/"],
   "icons": {
     "16": "icon-16x16.png",
     "32": "icon-32x32.png",
