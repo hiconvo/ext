@@ -2,6 +2,7 @@ const message = document.getElementById("message");
 const clearButton = document.getElementById("clear");
 const authenticateButton = document.getElementById("authenticate");
 const formContent = document.getElementById("formcontent");
+const form = document.getElementById("form");
 
 function showLogin() {
   clearButton.style.display = "none";
@@ -50,7 +51,7 @@ clearButton.addEventListener("click", () => {
   });
 });
 
-authenticateButton.addEventListener("click", e => {
+form.addEventListener("submit", e => {
   e.preventDefault();
 
   authenticateButton.disabled = true;
